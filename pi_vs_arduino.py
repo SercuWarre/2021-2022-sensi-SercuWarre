@@ -42,7 +42,8 @@ def setup(knop1, knop2):
 try:
     setup(knop1, knop2)
     while True:
-        time.sleep(3)
+        potmeter()
+        lichtmeter()
 except KeyboardInterrupt as e:
     print(e)
 finally:
